@@ -7,6 +7,8 @@ apt-get install apache2 -y
 
 # instalamos paquetes para apache
 apt-get install php libapache2-mod-php php-mysql -y
+add-apt-repository ppa:ondrej/php
+apt-get install php7.2-fpm php7.2-dev php7.2-curl php7.2-xmlrpc php7.2-gd php7.2-mysql php7.2-mbstring php7.2-xml  libapache2-mod-php php7.2-soap php7.2-cli
 
 
 # bajar joomla
